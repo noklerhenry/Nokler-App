@@ -16,6 +16,8 @@ model Game {
   description String?
   trailer     String?   @db.VarChar(2048)
   genres      Genre[]
+  plataforms  Plataform[]
+  productKey  ProductsKey[]
 }
 
 model Genre {
@@ -23,3 +25,88 @@ model Genre {
   name  String @unique @db.VarChar(50)
   games Game[]
 }
+
+model Plataform{
+  id Int   @id @default(autoincrement())
+  name  String @unique @db.VarChar(50)
+  games Game[]
+  productKey ProductsKey[]
+}
+
+model Store {
+  id    Int    @id @default(autoincrement())
+  name  String @unique @db.VarChar(50)
+  productKey ProductsKey @relation(fields:[productKeyId], references:[id])
+  productKeyId Int
+}
+
+model ProductsKey {
+  id Int    @id @default(autoincrement())
+  price Float
+  key String @unique @db.VarChar(50)
+  store Store[]
+  game Game @relation(fields:[gameId], references:[id])
+  gameId Int
+  plataform Plataform @relation(fields:[plataformId], references:[id])
+  plataformId Int
+  cart Cart @relation(fields:[cartId], references:[id])
+  cartId Int
+  user User @relation(fields:[userId], references:[id])
+  userId Int
+}
+
+model Order{
+  id Int    @id @default(autoincrement())
+  dateOrder DateTime @default(now())
+  cart Cart @relation(fields:[idCart], references:[id])
+  idCart Int
+  payment Payment?
+  status Boolean
+  user User @relation(fields:[userId], references:[id])
+  userId Int
+}
+
+model Cart {
+  id Int  @id @default(autoincrement())
+  productKey ProductsKey[] 
+  order Order[]
+  subTotal Float
+}
+
+model Payment {
+   id Int    @id @default(autoincrement())
+   order Order @relation(fields:[orderId], references:[id])
+   orderId Int
+   amount Float
+   status Status @default(PENDING)
+}
+
+
+model User {
+ id Int    @id @default(autoincrement())
+ name String @unique @db.VarChar(50)
+ email String @unique @db.VarChar(50)
+ password String @db.VarChar(50)
+ rol Rol @default(USER)
+ state State @default(STANDARD)
+ img String
+ userProduct ProductsKey[]
+ order Order[]
+}
+
+enum Status {
+  PENDING
+  CANCEL
+  FINISHED
+}
+
+enum Rol {
+  USER
+  ADMIN
+}
+
+enum State {
+  PREMIUM
+  STANDARD
+}
+
