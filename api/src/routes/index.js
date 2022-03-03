@@ -1,12 +1,11 @@
 const { Router } = require("express");
-
 const router = Router();
 
-router.use("/", async (req, res, next) => {
-  res.json({
-    message: "Hello World from Nokler!",
-  });
-  next();
-});
+const games = require('./game.routes.js');
+
+
+//Import de routers:
+router.use('/games', games)
+
 
 module.exports = router;

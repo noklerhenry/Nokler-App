@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@prisma/client": "^3.10.0",
+    "axios": "^0.26.0",
     "express": "^4.17.3"
   },
   "prisma": {
