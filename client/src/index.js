@@ -2,6 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+<<<<<<< HEAD
+=======
+import reportWebVitals from './reportWebVitals';
+>>>>>>> 961014b368f689373d5a2b9a3eab569d55e521cf
 import { Provider } from 'react-redux';
 import store from './Store';
 import { Auth0Provider } from '@auth0/auth0-react';
