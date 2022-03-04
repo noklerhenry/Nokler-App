@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+// import { Router, Route } from 'react-router-dom';
+import NavBar from './Components/NavBar';
+import { Home } from './Components/Home';
+import {Box,  Flex, Button, useColorMode, FormControl, Input, useToast } from '@chakra-ui/react'
+import { Fragment } from 'react';
+//ThemeProvider, theme, CSSReset, ColorModeProvider, 
+import Footer from "./Components/Footer/Footer";
 
 function App() {
+
+  const toast = useToast();
+  const {colorMode, toggleColorMode} = useColorMode();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <Fragment>
+      <NavBar />
+      <Home />
+      <Flex align='center' justify='center' height='100vh' direction='column' width='400px'>
+        <Button size='lg' mt='20px' onClick={() => toggleColorMode()}>Cambiar Theme</Button>
+        <FormControl mt='20px'>
+          <Input placeholder='Password' size='lg' type='password' width='200px' mt='20px'/>
+        </FormControl>
+        <Button mt='20px' variantColor='green' size='lg' onClick={() => toast({
+          isClosable: false,
+          title: 'Entraste ok',
+          description: 'sos un campeon',
+          duration: 5000,
+          position: 'bottom-right',
+          status: 'success'
+        }       )}>Access</Button>
+        <Flex width='80%' mt='20px' padding='10px'>
+          <Box bg='brand.primary' w='100%'>
+          Hey Henry, soy un Box de Chakra
+           </Box>
+        </Flex>
+      </Flex>
+      <Footer/>
+    </Fragment>
   );
-}
+};
 
 export default App;
