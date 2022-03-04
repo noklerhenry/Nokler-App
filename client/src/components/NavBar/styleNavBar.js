@@ -33,10 +33,10 @@ export const NavLogo = styled.div`
 `;
 
 export const SearchBarContainer = styled.div`
- display: flex;
- align-items: center;
- margin-top: -45px;
- margin-right: 13rem;
+  display: flex;
+  align-items: center;
+  margin-top: -45px;
+  margin-right: 13rem;
 `;
 
 export const UserIconContainer = styled.div`
@@ -102,14 +102,11 @@ export const ShopIcon = styled(FaShoppingCart)`
   }
 `;
 
-
-
-
 export const UserSpan = styled.p`
- color: #fff;
- font-size: 12px;
- font-weight: bold;
- display: flex;
- align-items: center;
- margin: 0 10px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
 `;
