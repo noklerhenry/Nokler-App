@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { theme } from './Styles/theme';
+import { theme } from './Styles/Theme';
 
 
 ReactDOM.render(
