@@ -1,21 +1,27 @@
 import styled from "styled-components";
 import { motion } from "framer-motion/dist/framer-motion";
 
+export const AppContainer = styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 8em;
+`;
+
 export const SearchBarContainer = styled(motion.div)`
   display: flex;
   flex-direction: column;
   width: 35em;
-  height: 3.8em; // animated property to expand or collapse with framer motion 
+  height: 3.8em; // animated property to expand or collapse with framer motion
   background-color: #fff;
   border-radius: 6px;
   box-shadow: 0px 2px 12px 3px rgba(0, 0, 0, 0.14);
-  /* overflow-x: hidden; */
-  /* overflow-y: auto; */
 `;
 
 export const SearchInputContainer = styled.div`
   width: 100%;
-  min-height: 3.6em;
+  min-height: 2.3em;
   display: flex;
   align-items: center;
   position: relative;
@@ -24,22 +30,20 @@ export const SearchInputContainer = styled.div`
 
 export const SearchInput = styled.input`
   width: 100%;
-  height: 100%;
+  height: 105%;
   outline: none;
-  border: none;
-  font-size: 21px;
+  border: none;   
+  font-size: 16px;
   color: #12112e;
   font-weight: 500;
   border-radius: 6px;
   background-color: transparent;
-
   &:focus {
     outline: none;
     &::placeholder {
       opacity: 0;
     }
   }
-
   &::placeholder {
     color: #bebebe;
     transition: all 250ms ease-in-out;
@@ -48,7 +52,7 @@ export const SearchInput = styled.input`
 
 export const SearchIcon = styled.span`
   color: #bebebe;
-  font-size: 27px;
+  font-size: 23px;
   margin-right: 10px;
   margin-top: 4px;
   vertical-align: middle;
@@ -62,9 +66,21 @@ export const CloseIcon = styled(motion.span)`
   vertical-align: middle;
   transition: all 200ms ease-in-out;
   cursor: pointer;
+  &:hover {
+    color: red;
+  }
+`;
+
+export const ButtonSearch = styled.button`
+  border: none;
+  background-color: transparent;
+  padding: 5px;
+  font-size: 20px;
 
   &:hover {
-    color: #dfdfdf;
+    cursor: pointer;
+    color: #a214c6;
+    transition: 0.2s ease-in-out;
   }
 `;
 
@@ -74,7 +90,6 @@ export const SearchContent = styled.div`
   display: flex;
   flex-direction: column;
   padding: 1em;
-  /* overflow-x: hidden; */
   overflow-y: auto;
 `;
 
@@ -99,4 +114,24 @@ export const WarningMessage = styled.span`
   display: flex;
   align-self: center;
   justify-self: center;
-`
+`;
+
+export const AllResultsButton = styled.button`
+  background-color: #000;
+  color: #fff;
+  width: 70%;
+  border: none;
+  padding: 8px;
+  margin-top: 15px;
+  margin-left: 5rem;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #A214C6;
+    transition: 0.3s ease-in-out;
+  }
+`;

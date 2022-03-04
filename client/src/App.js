@@ -1,19 +1,9 @@
-import styled from 'styled-components';
-import SearchBar from './components/searchBar';
-
-const AppContainer = styled.div`
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 8em;
-`
+// import { Router, Route } from 'react-router-dom';
+import NavBar from './components/NavBar';
 
 function App() {
-  return (
-    <AppContainer>
-        <SearchBar />
-    </AppContainer>
+  return ( 
+  <NavBar />
   );
 }
 

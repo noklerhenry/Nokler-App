@@ -7,6 +7,13 @@ export const GameResultsContainer = styled.div`
   border-bottom: 1px solid #d8d8d852;
   padding: 6px 8px;
   align-items: center;
+
+  &:hover {
+    border-bottom: 2px solid violet;
+    height: 6em;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
 `;
 
 export const Thumbnail = styled.div`
@@ -14,7 +21,7 @@ export const Thumbnail = styled.div`
   height: 100%;
   display: flex;
   flex: 0.6;
-  
+
   img {
     width: auto;
     height: 100%;
@@ -27,6 +34,10 @@ export const GameName = styled.h3`
   margin-left: 10px;
   flex: 2;
   display: flex;
+
+  &:hover {
+    cursor: pointer;
+  }
 `;
 
 export const Rating = styled.span`
@@ -34,4 +45,4 @@ export const Rating = styled.span`
   font-size: 16px;
   display: flex;
   flex: 0.5;
-`
+`;
