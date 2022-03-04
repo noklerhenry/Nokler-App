@@ -1,12 +1,46 @@
+const { PrismaClient } = require("@prisma/client");
+const prisma = new PrismaClient()
+
+
 const {
-    getApiGames
+    getApiGamesByName
 } = require('../services/games.service')
 
 const getGamesController = async (req, res) => {
+    const name = req.query.name    
     try {
-        const games = await getApiGames()
-        res.json(games)
-        
+        if(name){
+            const getDBGames = await prisma.Game.findMany({
+                where: {
+                    name: {
+                        contains: name,
+                        mode: 'insensitive'  
+                    },
+                },
+                select: {
+                    id: true,
+                    name: true,
+                    released_at: true,
+                    rating: true,
+                    image: true,
+                    description: true,
+                },
+                // include: {
+                //     genres: true,
+                //     platforms: true,
+                //     productKey: true,
+                // },
+            })
+            if(getDBGames.length < 1) {
+                const apiGames = await getApiGamesByName(name)            
+                res.json(apiGames)
+            } else {
+                res.status(200).json(getDBGames)    
+            }
+        } else {
+            res.json('Game not found')
+        }
+
     } catch (error) {
         console.log(error)
         res.status(500).json(error.message)

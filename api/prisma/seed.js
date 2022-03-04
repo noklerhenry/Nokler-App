@@ -73,10 +73,10 @@ const gameData = [
 
 const main = async () => {
   console.log("Seeding Genres...");
-  //   for (const g of genreData) {
-  //     const genre = await prisma.genre.create({ data: g });
-  //     console.log(`Seeded ${genre.name}`);
-  //   }
+    for (const g of genreData) {
+      const genre = await prisma.genre.create({ data: g });
+      console.log(`Seeded ${genre.name}`);
+    }
   console.log("Seeding Genres... Done!");
   const game = await prisma.game.create({
     data: {
@@ -90,10 +90,10 @@ const main = async () => {
     },
   });
   console.log(game);
-  //   for (const g of gameData) {
-  //     const game = await prisma.game.create({ data: g });
-  //     console.log(`Seeded ${game.name}`);
-  //   }
+    for (const g of gameData) {
+      const game = await prisma.Game.create({ data: g });
+      console.log(`Seeded ${game.name}`);
+    }
   console.log("Seeding Games... Done!");
 
   console.log("Seeding finished!");

@@ -6,7 +6,6 @@ const {
 } = require('../controllers/game.controller.js')
 
 
-
 router.get('/', getGamesController)
 
 
