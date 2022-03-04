@@ -4,6 +4,7 @@ import { Home } from './Components/Home';
 import {Box,  Flex, Button, useColorMode, FormControl, Input, useToast } from '@chakra-ui/react'
 import { Fragment } from 'react';
 //ThemeProvider, theme, CSSReset, ColorModeProvider, 
+import Footer from "./Components/Footer/Footer";
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
 
 
 
+      <Footer/>
     </Fragment>
   );
 };
