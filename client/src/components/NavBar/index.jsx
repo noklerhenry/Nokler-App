@@ -1,22 +1,23 @@
-import React from 'react';
-import { 
-    Nav, 
-    NavBarContainer, 
-    NavLogo, 
-    SearchBarContainer,
-    UserIconContainer, 
-    ButtonUser,
-    UserIcon,
-    UserSpan,
-    ShopIconContainer,
-    ShopIcon,
-    ButtonShop
-} from './styleNavBar.js';
+import React from "react";
+import {
+  Nav,
+  NavBarContainer,
+  NavLogo,
+  SearchBarContainer,
+  UserIconContainer,
+  ButtonUser,
+  UserIcon,
+  UserSpan,
+  ShopIconContainer,
+  ShopIcon,
+  ButtonShop,
+} from "./styleNavBar.js";
 import ImgLogo from "./Logo/footer_nokler_logo.png";
-import SearchBar from '../SearchBar/index';
-
+import SearchBar from "../searchBar/index";
+import { useAuth0 } from "@auth0/auth0-react";
 
 const NavBar = () => {
+  const { loginWithRedirect } = useAuth0();
   return (
     <>
       <Nav>
@@ -28,20 +29,20 @@ const NavBar = () => {
             <SearchBar />
           </SearchBarContainer>
           <UserIconContainer>
-            <ButtonUser>
+            <ButtonUser onClick={loginWithRedirect}>
               <UserIcon />
             </ButtonUser>
             <UserSpan>Sign in / Register</UserSpan>
           </UserIconContainer>
           <ShopIconContainer>
-              <ButtonShop>
-                  <ShopIcon />
-              </ButtonShop>
+            <ButtonShop>
+              <ShopIcon />
+            </ButtonShop>
           </ShopIconContainer>
         </NavBarContainer>
       </Nav>
     </>
   );
-}
+};
 
-export default NavBar
+export default NavBar;
