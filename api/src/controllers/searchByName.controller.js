@@ -1,7 +1,6 @@
 const { PrismaClient } = require("@prisma/client");
 const prisma = new PrismaClient()
 
-
 const {
     searchApiGamesByName
 } = require('../services/searchByName.service')
@@ -58,4 +57,4 @@ const searchGamesController = async (req, res) => {
 
 module.exports = {
     searchGamesController
-  };
+};
