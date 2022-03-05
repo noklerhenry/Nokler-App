@@ -4,6 +4,7 @@ const { PrismaClient } = require("@prisma/client");
 const routes = require("./routes");
 
 const PORT = process.env.PORT || 3001;
+const API_KEY = process.env.API_KEY;
 
 const app = express();
 
@@ -19,7 +20,7 @@ const server = app.listen(PORT, async () =>{
 
   const dbVerification = await prisma.Genre.findMany();
   if (dbVerification.length < 1) {
-    const apiGenresData = await axios.get('https://api.rawg.io/api/genres?key=8cf0a627fd28494d83d70c624ec46fb7')
+    const apiGenresData = await axios.get(`https://api.rawg.io/api/genres?key=${API_KEY}`)
     const preLoadDb = apiGenresData.data.results?.map((genre) => {
       return {
         name: genre.name

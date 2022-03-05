@@ -15,27 +15,36 @@ const searchGamesController = async (req, res) => {
                     name: {
                         contains: name,
                         mode: 'insensitive'  
-                    },
+                    }
                 },
-                select: {
-                    id: true,
-                    name: true,
-                    released_at: true,
-                    rating: true,
-                    image: true,
-                    description: true,
-                },
-                // include: {
-                //     genres: true,
-                //     platforms: true,
-                //     productKey: true,
-                // },
+                include: {
+                    genres: true,
+                    platforms: true,
+                    productKey: true,
+                }
             })
             if(getDBGames.length < 1) {
-                const apiGames = await searchApiGamesByName(name)            
+                const apiGames = await searchApiGamesByName(name)      
+                console.log('api games')      
                 res.json(apiGames)
             } else {
-                res.status(200).json(getDBGames)    
+                console.log(getDBGames)
+                const formatDBGames = getDBGames.map(data => {
+                        return {
+                        id: data.id,
+                        name: data.name,    
+                        released: data.released_at?.toISOString().split('T')[0],
+                        img: data.image,
+                        trailer: data.trailer,
+                        description: data.description,
+                        genres: data.genres.map(genre => genre.name),
+                        platform: data.platforms?.map(plat => plat.name),
+                        productKey: data.productKey?.map(pkey => pkey.key)             
+                        }
+                    }                  
+                )
+                console.log('database games')
+                res.status(200).json(formatDBGames)    
             }
         } else {
             res.json('Game not found')

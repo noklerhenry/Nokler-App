@@ -11,7 +11,7 @@ const searchApiGamesByName =  async (searchName) => {
 
         if(searchName) {
             const apiGames =  await axios.get(`https://api.rawg.io/api/games?dates=2010-01-01,${dateNow}&search=${searchName}&key=${API_KEY}`)
-
+            
             const apiGamesByName = apiGames.data.results.map( game => {
                 return {
                     id: game.id,
