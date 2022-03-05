@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { clearCart, loadCart, removeToCart } from "../Actions";
+import { clearCart, removeToCart } from "../Actions";
 import s from "./Cart.module.css";
 import { Payment } from "./Payment";
 

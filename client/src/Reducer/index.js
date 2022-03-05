@@ -1,4 +1,4 @@
-import { ADD_TO_CART, CLEAR_CART, REMOVE_TO_CART, LOAD_CART } from "../Actions";
+import { ADD_TO_CART, CLEAR_CART, REMOVE_TO_CART } from "../Actions";
 import json from '../games.json'
 
 const cartFromLocalStorage = JSON.parse(localStorage.getItem('cart') || '[]');
@@ -39,11 +39,6 @@ const reducer = (state = initalState, action) => {
             return {
                 ...state,
                 cart: []
-            }
-        case LOAD_CART:
-            return {
-                ...state,
-                cart: action.payload
             }
         default:
             return state;
