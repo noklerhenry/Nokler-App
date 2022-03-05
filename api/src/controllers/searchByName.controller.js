@@ -3,10 +3,10 @@ const prisma = new PrismaClient()
 
 
 const {
-    getApiGamesByName
-} = require('../services/games.service')
+    searchApiGamesByName
+} = require('../services/searchByName.service')
 
-const getGamesController = async (req, res) => {
+const searchGamesController = async (req, res) => {
     const name = req.query.name    
     try {
         if(name){
@@ -32,7 +32,7 @@ const getGamesController = async (req, res) => {
                 // },
             })
             if(getDBGames.length < 1) {
-                const apiGames = await getApiGamesByName(name)            
+                const apiGames = await searchApiGamesByName(name)            
                 res.json(apiGames)
             } else {
                 res.status(200).json(getDBGames)    
@@ -48,5 +48,5 @@ const getGamesController = async (req, res) => {
 }
 
 module.exports = {
-    getGamesController
+    searchGamesController
   };

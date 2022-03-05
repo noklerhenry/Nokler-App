@@ -4,7 +4,7 @@ const API_KEY = process.env.API_KEY
 
 
 
-const getApiGamesByName =  async (searchName) => {
+const searchApiGamesByName =  async (searchName) => {
     try {
         let date = new Date();
         let dateNow = date.toISOString().split('T')[0];
@@ -35,5 +35,5 @@ const getApiGamesByName =  async (searchName) => {
 }
 
 module.exports = {
-    getApiGamesByName,
+    searchApiGamesByName,
 };
