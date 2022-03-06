@@ -6,7 +6,7 @@ const {
 } = require('../controllers/getDetails.controller')
 
 
-router.get('/', getDetails)
+router.get('/:id', getDetails)
 
 
 module.exports = router;

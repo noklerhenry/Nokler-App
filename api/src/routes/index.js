@@ -10,9 +10,16 @@ const getDetails = require('./getDetails.routes')
 
 //Search games: 1-DB ; 2-API
 router.use('/searchByName', searchGames)
-router.use('/postGame', postGame)
-router.use('/filterByPlatform', platformFilter)
+
+//Get game details
 router.use('/details', getDetails)
+
+//Post game to DB ** INCOMPLETE **
+router.use('/postGame', postGame)
+
+// Filter by platform
+router.use('/filterByPlatform', platformFilter)
+
 
 
 module.exports = router;
