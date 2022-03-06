@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { clearCart, loadCart, removeToCart } from "../Actions";
-import s from "./Cart.module.css";
+import { clearCart, loadCart, removeToCart } from "../../Actions";
 import { Payment } from "./Payment";
+import { Container, Button, Box, Text } from "@chakra-ui/react";
 
 export const Cart = () => {
   const dispatch = useDispatch();
@@ -27,24 +27,26 @@ export const Cart = () => {
   };
 
   return (
-    <div className={s.container}>
-      <h3>Shopping Cart</h3>
+    <div>
+      <Container d='flex' flexDirection='column'>
       {cart?.map((g) => {
         return (
-          <div key={g.id}>
-            <label>{g.name}</label>
-            <label>
+          <Box key={g.id}  mb='10px' pb='4'>
+            <Text fontSize='16px' mb='5px' fontWeight='700'>{g.name}</Text>
+            <Text>
               ${g.price} x {g.quantity} = ${g.price * g.quantity}
-            </label>
-            <button className={s.button} onClick={() => handleDelete(g.id)}>
+            </Text>
+            <Button variant='red' onClick={() => handleDelete(g.id)}>
               X
-            </button>
-          </div>
+            </Button>
+            <hr />
+          </Box>
         );
       })}
-      <label>Total: ${total}</label>
-      <button onClick={handleClear}>Clear all</button>
+      <Text fontSize='18px' fontWeight='700'>Total: <b>${total}</b></Text>
+      <Button onClick={handleClear} mb='20px' mt='20px'>Clear all</Button>
       <Payment amount={total} />
+      </Container>
     </div>
   );
 };

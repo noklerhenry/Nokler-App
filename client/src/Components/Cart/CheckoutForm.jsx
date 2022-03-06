@@ -1,6 +1,6 @@
 import React from "react";
 import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
-import s from "./Checkout.module.css";
+import {Container, Button} from  "@chakra-ui/react";
 import { useAuth0 } from '@auth0/auth0-react';
 
 export const CheckoutForm = ({ amount }) => {
@@ -25,9 +25,11 @@ export const CheckoutForm = ({ amount }) => {
   };
 
   return (
+    <Container>
     <form onSubmit={(e) => handleSubmit(e)}>
       <CardElement />
-      <button className={s.buy}>Buy</button>
+      <Button background='green.400' color='white' >Buy</Button>
     </form>
+    </Container>
   );
 };
