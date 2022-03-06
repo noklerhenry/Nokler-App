@@ -6,7 +6,7 @@ const {
   genreDB,
   platformsDB,
   storesDB
-} = require('./apiAux')
+} = require('./dbLoader')
 
 const PORT = process.env.PORT || 3001;
 

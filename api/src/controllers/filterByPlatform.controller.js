@@ -29,10 +29,9 @@ const filterByPlatform = async (req, res) => {
         )     
         const filteredGames =  formatDBGames.filter(f => f.platform.includes(plat))
 
-        // console.log('hola', formatDBGames)
         res.json(filteredGames)
         } else {
-            res.json('Game not found')
+            res.json('Games not found')
         }
     } catch (error) {
         console.log(error)
