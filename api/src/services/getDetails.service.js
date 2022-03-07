@@ -14,7 +14,6 @@ const getGameDetails = async (id) => {
         released: gameData.released,
         rating: gameData.rating,
         img: gameData.background_image,
-        secondary_img: gameData.background_image_additional,
         // trailer: gameData.trailer,
         description: gameData.description_raw,
         genres: gameData.genres.map(genre => genre.name),
@@ -23,10 +22,20 @@ const getGameDetails = async (id) => {
     }
     return gameDetail
 }
+const getGameScreenshots = async (id) => {
+    const gameScreenshots = await axios.get(`https://api.rawg.io/api/games/${id}/screenshots?key=${API_KEY}`)
+    
+    const gameData = gameScreenshots.data
+    const screenshotsUrl = {
+        screenshots: gameData.results.map(screens => screens.image)
+    }
+    return screenshotsUrl
+}
 
 
 
 
 module.exports = {
-    getGameDetails
+    getGameDetails,
+    getGameScreenshots
 };

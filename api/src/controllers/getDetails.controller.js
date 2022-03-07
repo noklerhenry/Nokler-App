@@ -1,6 +1,7 @@
 
 const {
-    getGameDetails
+    getGameDetails,
+    getGameScreenshots
 } = require('../services/getDetails.service')
 
 const getDetails = async (req, res) => {
@@ -8,8 +9,14 @@ const getDetails = async (req, res) => {
     try {
         if(id) {
             const gameApiDetail = await getGameDetails(id)
+            const gameApiScreenshots = await getGameScreenshots(id)
             // console.log(gameApiDetail)
-            res.status(200).json(gameApiDetail)        
+
+            const gameDetails = {
+                ...gameApiDetail, 
+                screenshots: gameApiScreenshots }
+
+            res.status(200).json(gameDetails)        
         } else {
             res.json('Game detail not found')
         }
