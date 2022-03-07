@@ -5,8 +5,12 @@ const searchGames = require('./searchByName.routes.js');
 const postGame = require('./postGame.routes.js')
 const platformFilter = require('./filterByPlatform.routes.js')
 const getDetails = require('./getDetails.routes')
+const getAllGames = require('./getAllGames.routes.js')
 
 //Import de routers:
+
+//All games
+router.use('/allGames', getAllGames)
 
 //Search games: 1-DB ; 2-API
 router.use('/searchByName', searchGames)
