@@ -44,7 +44,7 @@ const storesDB = async () => {
             name: store.name,
           } 
         })
-        console.log(preLoadDb)
+        // console.log(preLoadDb)
         for (const s of preLoadDb) {
           await prisma.store.create( { data: s } )
         }
