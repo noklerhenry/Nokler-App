@@ -14,7 +14,6 @@ const getGameDetails = async (id) => {
         released: gameData.released,
         rating: gameData.rating,
         img: gameData.background_image,
-        // trailer: gameData.trailer,
         description: gameData.description_raw,
         genres: gameData.genres.map(genre => genre.name),
         platform: gameData.platforms?.map(plat => plat.platform.name),
@@ -32,8 +31,7 @@ const getGameScreenshots = async (id) => {
     return screenshotsUrl
 }
 
-
-
+const getGameTrailer = () => {}
 
 module.exports = {
     getGameDetails,

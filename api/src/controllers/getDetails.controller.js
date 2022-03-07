@@ -14,7 +14,7 @@ const getDetails = async (req, res) => {
 
             const gameDetails = {
                 ...gameApiDetail, 
-                screenshots: gameApiScreenshots }
+                ...gameApiScreenshots }
 
             res.status(200).json(gameDetails)        
         } else {
