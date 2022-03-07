@@ -23,6 +23,8 @@ router.use('/details', getDetails)
 
 //Post game to DB ** INCOMPLETE **
 router.use('/postGame', postGame)
+router.use("/searchGenre",searchGenre)
+
 
 
 
