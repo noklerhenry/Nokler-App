@@ -24,6 +24,8 @@ router.use('/details', getDetails)
 
 //Post game to DB ** INCOMPLETE **
 router.use('/postGame', postGame)
+router.use("/searchGenre",searchGenre)
+
 
 // Filter by platform
 router.use('/filterByPlatform', platformFilter)
