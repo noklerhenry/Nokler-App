@@ -41,13 +41,13 @@ const storesDB = async () => {
         const apiStoresData = await axios.get(`https://api.rawg.io/api/stores?key=${API_KEY}`)
         const preLoadDb = apiStoresData.data.results?.map((store) => {
           return {
-            name: store.name
+            name: store.name,
           } 
         })
-        // console.log(preLoadDb)
-        // for (const s of preLoadDb) {
-        //   await prisma.store.create( { data: s })
-        // }
+        console.log(preLoadDb)
+        for (const s of preLoadDb) {
+          await prisma.store.create( { data: s } )
+        }
       }
 }
 

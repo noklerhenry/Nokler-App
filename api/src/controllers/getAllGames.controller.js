@@ -30,11 +30,8 @@ const getAllGames = async (req, res) => {
             }                  
         )
         console.log('database games')
-        res.status(200).json('hola')    
-}
-
-
-        
+        res.status(200).json(formatDBGames)    
+        }       
     } catch (error) {
         console.log(error)
         res.status(500).json(error.message)        

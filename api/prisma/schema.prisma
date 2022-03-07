@@ -34,10 +34,10 @@ model Platform {
 }
 
 model Store {
-  id           Int         @id @default(autoincrement())
-  name         String      @unique @db.VarChar(50)
-  productKey   ProductsKey @relation(fields: [productKeyId], references: [id])
-  productKeyId Int
+  id           Int          @id @default(autoincrement())
+  name         String       @unique @db.VarChar(50)
+  productKey   ProductsKey? @relation(fields: [productKeyId], references: [id])
+  productKeyId Int?
 }
 
 model ProductsKey {
