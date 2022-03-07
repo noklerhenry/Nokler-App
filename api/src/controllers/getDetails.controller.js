@@ -8,14 +8,14 @@ const getDetails = async (req, res) => {
     try {
         if(id) {
             const gameApiDetail = await getGameDetails(id)
-            console.log(gameApiDetail)
+            // console.log(gameApiDetail)
             res.status(200).json(gameApiDetail)        
         } else {
             res.json('Game detail not found')
         }
     } catch (error) {
         console.log(error)
-        res.status(500).json(error.message)
+        res.status(500).json()
     }
 }
 

@@ -3,7 +3,6 @@ const router = Router();
 
 const searchGames = require('./searchByName.routes.js');
 const postGame = require('./postGame.routes.js')
-const platformFilter = require('./filterByPlatform.routes.js')
 const getDetails = require('./getDetails.routes')
 const getAllGames = require('./getAllGames.routes.js')
 const userSearch = require('./userSearch.routes.js')
@@ -25,8 +24,6 @@ router.use('/details', getDetails)
 //Post game to DB ** INCOMPLETE **
 router.use('/postGame', postGame)
 
-// Filter by platform
-router.use('/filterByPlatform', platformFilter)
 
 
 
