@@ -1,5 +1,6 @@
 const express = require("express");
 const { PrismaClient } = require("@prisma/client");
+const bodyParser = require("body-parser");
 const routes = require("./routes");
 
 const PORT = process.env.PORT || 3001;
@@ -7,7 +8,7 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 const prisma = new PrismaClient();
 
-app.use(express.json());
+app.use(bodyParser.json({ limit: "50mb" }));
 
 app.use("/", routes);
 
