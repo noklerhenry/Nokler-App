@@ -3,7 +3,6 @@ const axios = require('axios');
 const API_KEY = process.env.API_KEY
 
 
-
 const getGameDetails = async (id) => {
     const gameDetailById = await axios.get(`https://api.rawg.io/api/games/${id}?key=${API_KEY}`)
     
@@ -21,6 +20,7 @@ const getGameDetails = async (id) => {
     }
     return gameDetail
 }
+
 const getGameScreenshots = async (id) => {
     const gameScreenshots = await axios.get(`https://api.rawg.io/api/games/${id}/screenshots?key=${API_KEY}`)
     
@@ -30,8 +30,6 @@ const getGameScreenshots = async (id) => {
     }
     return screenshotsUrl
 }
-
-const getGameTrailer = () => {}
 
 module.exports = {
     getGameDetails,
