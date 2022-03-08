@@ -2,15 +2,15 @@ import styled from "styled-components";
 
 export const GameResultsContainer = styled.div`
   width: 93%;
-  height: 2.8em;
+  height: 2.2em;
   display: flex;
   border-bottom: 1px solid #d8d8d852;
   padding: 6px 8px;
   align-items: center;
-
+  margin-top:30px;
   &:hover {
     border-bottom: 2px solid violet;
-    height: 6em;
+    height: 2em;
     cursor: pointer;
     transition: 0.2s ease-in-out;
   }

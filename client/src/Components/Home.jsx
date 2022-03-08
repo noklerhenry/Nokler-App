@@ -1,19 +1,17 @@
 import React from "react";
 import { Cards } from "./Cards";
-import { Cart } from "./Cart";
-import { Logout } from "./Logout";
-import { Profile } from "./Profile";
+import { Box } from "@chakra-ui/react";
+import Hero from './Hero/Hero';
 
 export const Home = () => {
   return (
-    <div>
-      <Logout />
-      <Profile />
-      <h1>Hellow World!</h1>
-      <hr />
+    <>
+      <Box w='100%' mt='150px'>
+      <Hero />
+        </Box>
+      <Box  w='95%' mt='50px' alignItems='center' ml='25px'>
       <Cards />
-      <hr />
-      <Cart />
-    </div>
+      </Box>
+    </>
   );
 };

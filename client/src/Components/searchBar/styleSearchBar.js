@@ -4,18 +4,21 @@ import { motion } from "framer-motion/dist/framer-motion";
 export const AppContainer = styled.div`
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 8em;
+  display: inline-block;
+  justify-content: left;
+  margin-top: -15px;
+  margin-left: -240px;
+  position: absolute;
 `;
 
 export const SearchBarContainer = styled(motion.div)`
   display: flex;
   flex-direction: column;
-  width: 35em;
-  height: 3.8em; // animated property to expand or collapse with framer motion
+  width: 30em;
+  height: 1.8em; // animated property to expand or collapse with framer motion
   background-color: #fff;
-  border-radius: 6px;
+  overflow: hidden;
+  border-radius: 30px;
   box-shadow: 0px 2px 12px 3px rgba(0, 0, 0, 0.14);
 `;
 
