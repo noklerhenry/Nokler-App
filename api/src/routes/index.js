@@ -7,6 +7,7 @@ const platformFilter = require('./filterByPlatform.routes.js')
 const getDetails = require('./getDetails.routes')
 const getAllGames = require('./getAllGames.routes.js')
 const userSearch = require('./userSearch.routes.js')
+const filterByGenre = require('./filterByGenre.routes.js')
 
 //Import de routers:
 
@@ -24,7 +25,9 @@ router.use('/details', getDetails)
 
 //Post game to DB ** INCOMPLETE **
 router.use('/postGame', postGame)
-router.use("/searchGenre",searchGenre)
+
+//Filter by genre
+router.use("/filterByGenre",filterByGenre)
 
 
 // Filter by platform

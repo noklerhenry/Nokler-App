@@ -1,23 +1,23 @@
 const { PrismaClient } = require("@prisma/client");
 const prisma = new PrismaClient();
-let platArray = [];
+let genrArray = [];
 
-const filterByPlatform = async (req, res) => {
-  const { plat } = req.query;
-  if (!platArray.includes(plat)) {
-    platArray.push(plat);
+const filterByGenre = async (req, res) => {
+  const { genr } = req.query;
+  if (!genrArray.includes(genr)) {
+    genrArray.push(genr);
   }
-//   console.log(platArray);
+   console.log(genrArray);
   try {
-    if (platArray.length >= 1) {
-      const platformFilter = await prisma.game.findMany({
+    if (genrArray.length >= 1) {
+      const genreFilter = await prisma.game.findMany({
         include: {
           genres: true,
           platforms: true,
           productKey: true,
         },
       });
-      const formatDBGames = platformFilter.map((data) => {
+      const formatDBGames = genreFilter.map((data) => {
         return {
           id: data.id,
           name: data.name,
@@ -33,18 +33,14 @@ const filterByPlatform = async (req, res) => {
       //   console.log(formatDBGames);
 let filteredGames = []
 
-      for (let i = 0; i < platArray.length; i++) {
-        let ele = platArray[i];
+      for (let i = 0; i < genrArray.length; i++) {
+        let ele = genrArray[i];
         // console.log(ele)
         for (let j = 0; j < formatDBGames.length; j++) {
-          if (formatDBGames[j].platform.includes(ele)) {
+          if (formatDBGames[j].genres.includes(ele)) {
             filteredGames.push(formatDBGames[j].name);
           }
         }
-
-        // const filteredGames = formatDBGames.filter((f) =>
-        //   f.platform.includes()
-        // );
       }
       res.json(filteredGames);
     } else {
@@ -57,6 +53,7 @@ let filteredGames = []
   }
 };
 
+
 module.exports = {
-  filterByPlatform,
+  filterByGenre,
 };
