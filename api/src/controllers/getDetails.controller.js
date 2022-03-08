@@ -1,4 +1,3 @@
-
 const {
     getGameDetails,
     getGameScreenshots
