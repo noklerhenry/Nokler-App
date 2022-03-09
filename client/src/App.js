@@ -1,21 +1,17 @@
 // import { Router, Route } from 'react-router-dom';
-import NavBar from './Components/NavBar';
-import { Home } from './Components/Home';
-import { Fragment } from 'react';
-import Footer from "./Components/Footer/Footer";
-import Latest from './Components/Latest/Latest';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Checkout } from "./Components/Cart/Checkout";
+import { FirstPage } from "./Components/FirstPage/FirstPage";
 
 function App() {
-
   return (
-
-    <Fragment>
-      <NavBar />
-      <Home />
-      <Latest />
-      <Footer/>
-    </Fragment>
+    <Router>
+      <Switch>
+        <Route exact path='/' component={FirstPage} />
+        <Route exact path='/checkout' component={Checkout} />
+      </Switch>
+    </Router>
   );
-};
+}
 
 export default App;

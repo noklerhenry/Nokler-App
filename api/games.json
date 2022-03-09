@@ -1,0 +1,1412 @@
+[
+  {
+    "id": 3498,
+    "name": "Grand Theft Auto V",
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 143282,
+        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Adventure",
+        "slug": "adventure",
+        "games_count": 107531,
+        "image_background": "https://media.rawg.io/media/games/ad2/ad2ffdf80ba993654f31da045bc02456.jpg"
+      }
+    ],
+    "stores": [
+      {
+        "id": 290375,
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 7733,
+          "image_background": "https://media.rawg.io/media/games/588/588c6bdff3d4baf66ec36b1c05b793bf.jpg"
+        }
+      },
+      {
+        "id": 438095,
+        "store": {
+          "id": 11,
+          "name": "Epic Games",
+          "slug": "epic-games",
+          "domain": "epicgames.com",
+          "games_count": 792,
+          "image_background": "https://media.rawg.io/media/games/16b/16b1b7b36e2042d1128d5a3e852b3b2f.jpg"
+        }
+      },
+      {
+        "id": 290376,
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 60625,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      },
+      {
+        "id": 290377,
+        "store": {
+          "id": 7,
+          "name": "Xbox 360 Store",
+          "slug": "xbox360",
+          "domain": "marketplace.xbox.com",
+          "games_count": 1917,
+          "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+        }
+      },
+      {
+        "id": 290378,
+        "store": {
+          "id": 2,
+          "name": "Xbox Store",
+          "slug": "xbox-store",
+          "domain": "microsoft.com",
+          "games_count": 4701,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 3328,
+    "name": "The Witcher 3: Wild Hunt",
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 143282,
+        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Adventure",
+        "slug": "adventure",
+        "games_count": 107531,
+        "image_background": "https://media.rawg.io/media/games/ad2/ad2ffdf80ba993654f31da045bc02456.jpg"
+      },
+      {
+        "id": 5,
+        "name": "RPG",
+        "slug": "role-playing-games-rpg",
+        "games_count": 43884,
+        "image_background": "https://media.rawg.io/media/games/6cd/6cd653e0aaef5ff8bbd295bf4bcb12eb.jpg"
+      }
+    ],
+    "stores": [
+      {
+        "id": 354780,
+        "store": {
+          "id": 5,
+          "name": "GOG",
+          "slug": "gog",
+          "domain": "gog.com",
+          "games_count": 3978,
+          "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+        }
+      },
+      {
+        "id": 3565,
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 7733,
+          "image_background": "https://media.rawg.io/media/games/588/588c6bdff3d4baf66ec36b1c05b793bf.jpg"
+        }
+      },
+      {
+        "id": 305376,
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 60625,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      },
+      {
+        "id": 312313,
+        "store": {
+          "id": 2,
+          "name": "Xbox Store",
+          "slug": "xbox-store",
+          "domain": "microsoft.com",
+          "games_count": 4701,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        }
+      },
+      {
+        "id": 676022,
+        "store": {
+          "id": 6,
+          "name": "Nintendo Store",
+          "slug": "nintendo",
+          "domain": "nintendo.com",
+          "games_count": 8806,
+          "image_background": "https://media.rawg.io/media/games/e2d/e2d3f396b16dded0f841c17c9799a882.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 4200,
+    "name": "Portal 2",
+    "genres": [
+      {
+        "id": 2,
+        "name": "Shooter",
+        "slug": "shooter",
+        "games_count": 49119,
+        "image_background": "https://media.rawg.io/media/games/c80/c80bcf321da44d69b18a06c04d942662.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Puzzle",
+        "slug": "puzzle",
+        "games_count": 80852,
+        "image_background": "https://media.rawg.io/media/screenshots/6ac/6ac143af704c95c774af432785ff9762.jpeg"
+      }
+    ],
+    "stores": [
+      {
+        "id": 465889,
+        "store": {
+          "id": 2,
+          "name": "Xbox Store",
+          "slug": "xbox-store",
+          "domain": "microsoft.com",
+          "games_count": 4701,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        }
+      },
+      {
+        "id": 13134,
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 60625,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      },
+      {
+        "id": 4526,
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 7733,
+          "image_background": "https://media.rawg.io/media/games/588/588c6bdff3d4baf66ec36b1c05b793bf.jpg"
+        }
+      },
+      {
+        "id": 33916,
+        "store": {
+          "id": 7,
+          "name": "Xbox 360 Store",
+          "slug": "xbox360",
+          "domain": "marketplace.xbox.com",
+          "games_count": 1917,
+          "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 5286,
+    "name": "Tomb Raider (2013)",
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 143282,
+        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Adventure",
+        "slug": "adventure",
+        "games_count": 107531,
+        "image_background": "https://media.rawg.io/media/games/ad2/ad2ffdf80ba993654f31da045bc02456.jpg"
+      }
+    ],
+    "stores": [
+      {
+        "id": 713685,
+        "store": {
+          "id": 11,
+          "name": "Epic Games",
+          "slug": "epic-games",
+          "domain": "epicgames.com",
+          "games_count": 792,
+          "image_background": "https://media.rawg.io/media/games/16b/16b1b7b36e2042d1128d5a3e852b3b2f.jpg"
+        }
+      },
+      {
+        "id": 33824,
+        "store": {
+          "id": 7,
+          "name": "Xbox 360 Store",
+          "slug": "xbox360",
+          "domain": "marketplace.xbox.com",
+          "games_count": 1917,
+          "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+        }
+      },
+      {
+        "id": 13151,
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 60625,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      },
+      {
+        "id": 5640,
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 7733,
+          "image_background": "https://media.rawg.io/media/games/588/588c6bdff3d4baf66ec36b1c05b793bf.jpg"
+        }
+      },
+      {
+        "id": 218233,
+        "store": {
+          "id": 8,
+          "name": "Google Play",
+          "slug": "google-play",
+          "domain": "play.google.com",
+          "games_count": 16616,
+          "image_background": "https://media.rawg.io/media/games/21a/21ad672cedee9b4378abb6c2d2e626ee.jpg"
+        }
+      },
+      {
+        "id": 79036,
+        "store": {
+          "id": 4,
+          "name": "App Store",
+          "slug": "apple-appstore",
+          "domain": "apps.apple.com",
+          "games_count": 71649,
+          "image_background": "https://media.rawg.io/media/games/4fb/4fb548e4816c84d1d70f1a228fb167cc.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 5679,
+    "name": "The Elder Scrolls V: Skyrim",
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 143282,
+        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+      },
+      {
+        "id": 5,
+        "name": "RPG",
+        "slug": "role-playing-games-rpg",
+        "games_count": 43884,
+        "image_background": "https://media.rawg.io/media/games/6cd/6cd653e0aaef5ff8bbd295bf4bcb12eb.jpg"
+      }
+    ],
+    "stores": [
+      {
+        "id": 6037,
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 7733,
+          "image_background": "https://media.rawg.io/media/games/588/588c6bdff3d4baf66ec36b1c05b793bf.jpg"
+        }
+      },
+      {
+        "id": 15144,
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 60625,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      },
+      {
+        "id": 32919,
+        "store": {
+          "id": 6,
+          "name": "Nintendo Store",
+          "slug": "nintendo",
+          "domain": "nintendo.com",
+          "games_count": 8806,
+          "image_background": "https://media.rawg.io/media/games/e2d/e2d3f396b16dded0f841c17c9799a882.jpg"
+        }
+      },
+      {
+        "id": 49792,
+        "store": {
+          "id": 7,
+          "name": "Xbox 360 Store",
+          "slug": "xbox360",
+          "domain": "marketplace.xbox.com",
+          "games_count": 1917,
+          "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 4291,
+    "name": "Counter-Strike: Global Offensive",
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 143282,
+        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Shooter",
+        "slug": "shooter",
+        "games_count": 49119,
+        "image_background": "https://media.rawg.io/media/games/c80/c80bcf321da44d69b18a06c04d942662.jpg"
+      }
+    ],
+    "stores": [
+      {
+        "id": 4619,
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 7733,
+          "image_background": "https://media.rawg.io/media/games/588/588c6bdff3d4baf66ec36b1c05b793bf.jpg"
+        }
+      },
+      {
+        "id": 11489,
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 60625,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      },
+      {
+        "id": 49169,
+        "store": {
+          "id": 7,
+          "name": "Xbox 360 Store",
+          "slug": "xbox360",
+          "domain": "marketplace.xbox.com",
+          "games_count": 1917,
+          "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 12020,
+    "name": "Left 4 Dead 2",
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 143282,
+        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Shooter",
+        "slug": "shooter",
+        "games_count": 49119,
+        "image_background": "https://media.rawg.io/media/games/c80/c80bcf321da44d69b18a06c04d942662.jpg"
+      }
+    ],
+    "stores": [
+      {
+        "id": 13208,
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 60625,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      },
+      {
+        "id": 34000,
+        "store": {
+          "id": 7,
+          "name": "Xbox 360 Store",
+          "slug": "xbox360",
+          "domain": "marketplace.xbox.com",
+          "games_count": 1917,
+          "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 13536,
+    "name": "Portal",
+    "genres": [
+      {
+        "id": 3,
+        "name": "Adventure",
+        "slug": "adventure",
+        "games_count": 107531,
+        "image_background": "https://media.rawg.io/media/games/ad2/ad2ffdf80ba993654f31da045bc02456.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Puzzle",
+        "slug": "puzzle",
+        "games_count": 80852,
+        "image_background": "https://media.rawg.io/media/screenshots/6ac/6ac143af704c95c774af432785ff9762.jpeg"
+      }
+    ],
+    "stores": [
+      {
+        "id": 14890,
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 60625,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      },
+      {
+        "id": 40973,
+        "store": {
+          "id": 8,
+          "name": "Google Play",
+          "slug": "google-play",
+          "domain": "play.google.com",
+          "games_count": 16616,
+          "image_background": "https://media.rawg.io/media/games/21a/21ad672cedee9b4378abb6c2d2e626ee.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 4062,
+    "name": "BioShock Infinite",
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 143282,
+        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Shooter",
+        "slug": "shooter",
+        "games_count": 49119,
+        "image_background": "https://media.rawg.io/media/games/c80/c80bcf321da44d69b18a06c04d942662.jpg"
+      }
+    ],
+    "stores": [
+      {
+        "id": 71727,
+        "store": {
+          "id": 4,
+          "name": "App Store",
+          "slug": "apple-appstore",
+          "domain": "apps.apple.com",
+          "games_count": 71649,
+          "image_background": "https://media.rawg.io/media/games/4fb/4fb548e4816c84d1d70f1a228fb167cc.jpg"
+        }
+      },
+      {
+        "id": 440409,
+        "store": {
+          "id": 2,
+          "name": "Xbox Store",
+          "slug": "xbox-store",
+          "domain": "microsoft.com",
+          "games_count": 4701,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        }
+      },
+      {
+        "id": 461035,
+        "store": {
+          "id": 6,
+          "name": "Nintendo Store",
+          "slug": "nintendo",
+          "domain": "nintendo.com",
+          "games_count": 8806,
+          "image_background": "https://media.rawg.io/media/games/e2d/e2d3f396b16dded0f841c17c9799a882.jpg"
+        }
+      },
+      {
+        "id": 4382,
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 7733,
+          "image_background": "https://media.rawg.io/media/games/588/588c6bdff3d4baf66ec36b1c05b793bf.jpg"
+        }
+      },
+      {
+        "id": 13084,
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 60625,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      },
+      {
+        "id": 33810,
+        "store": {
+          "id": 7,
+          "name": "Xbox 360 Store",
+          "slug": "xbox360",
+          "domain": "marketplace.xbox.com",
+          "games_count": 1917,
+          "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 3439,
+    "name": "Life is Strange",
+    "genres": [
+      {
+        "id": 3,
+        "name": "Adventure",
+        "slug": "adventure",
+        "games_count": 107531,
+        "image_background": "https://media.rawg.io/media/games/ad2/ad2ffdf80ba993654f31da045bc02456.jpg"
+      }
+    ],
+    "stores": [
+      {
+        "id": 451321,
+        "store": {
+          "id": 5,
+          "name": "GOG",
+          "slug": "gog",
+          "domain": "gog.com",
+          "games_count": 3978,
+          "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+        }
+      },
+      {
+        "id": 3702,
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 7733,
+          "image_background": "https://media.rawg.io/media/games/588/588c6bdff3d4baf66ec36b1c05b793bf.jpg"
+        }
+      },
+      {
+        "id": 35603,
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 60625,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      },
+      {
+        "id": 35602,
+        "store": {
+          "id": 2,
+          "name": "Xbox Store",
+          "slug": "xbox-store",
+          "domain": "microsoft.com",
+          "games_count": 4701,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        }
+      },
+      {
+        "id": 217695,
+        "store": {
+          "id": 8,
+          "name": "Google Play",
+          "slug": "google-play",
+          "domain": "play.google.com",
+          "games_count": 16616,
+          "image_background": "https://media.rawg.io/media/games/21a/21ad672cedee9b4378abb6c2d2e626ee.jpg"
+        }
+      },
+      {
+        "id": 245823,
+        "store": {
+          "id": 7,
+          "name": "Xbox 360 Store",
+          "slug": "xbox360",
+          "domain": "marketplace.xbox.com",
+          "games_count": 1917,
+          "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+        }
+      },
+      {
+        "id": 44714,
+        "store": {
+          "id": 4,
+          "name": "App Store",
+          "slug": "apple-appstore",
+          "domain": "apps.apple.com",
+          "games_count": 71649,
+          "image_background": "https://media.rawg.io/media/games/4fb/4fb548e4816c84d1d70f1a228fb167cc.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 802,
+    "name": "Borderlands 2",
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 143282,
+        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Shooter",
+        "slug": "shooter",
+        "games_count": 49119,
+        "image_background": "https://media.rawg.io/media/games/c80/c80bcf321da44d69b18a06c04d942662.jpg"
+      },
+      {
+        "id": 5,
+        "name": "RPG",
+        "slug": "role-playing-games-rpg",
+        "games_count": 43884,
+        "image_background": "https://media.rawg.io/media/games/6cd/6cd653e0aaef5ff8bbd295bf4bcb12eb.jpg"
+      }
+    ],
+    "stores": [
+      {
+        "id": 4000,
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 7733,
+          "image_background": "https://media.rawg.io/media/games/588/588c6bdff3d4baf66ec36b1c05b793bf.jpg"
+        }
+      },
+      {
+        "id": 213037,
+        "store": {
+          "id": 8,
+          "name": "Google Play",
+          "slug": "google-play",
+          "domain": "play.google.com",
+          "games_count": 16616,
+          "image_background": "https://media.rawg.io/media/games/21a/21ad672cedee9b4378abb6c2d2e626ee.jpg"
+        }
+      },
+      {
+        "id": 11088,
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 60625,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      },
+      {
+        "id": 34042,
+        "store": {
+          "id": 7,
+          "name": "Xbox 360 Store",
+          "slug": "xbox360",
+          "domain": "marketplace.xbox.com",
+          "games_count": 1917,
+          "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+        }
+      },
+      {
+        "id": 71617,
+        "store": {
+          "id": 4,
+          "name": "App Store",
+          "slug": "apple-appstore",
+          "domain": "apps.apple.com",
+          "games_count": 71649,
+          "image_background": "https://media.rawg.io/media/games/4fb/4fb548e4816c84d1d70f1a228fb167cc.jpg"
+        }
+      },
+      {
+        "id": 817,
+        "store": {
+          "id": 2,
+          "name": "Xbox Store",
+          "slug": "xbox-store",
+          "domain": "microsoft.com",
+          "games_count": 4701,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Red Dead Redemption 2",
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 143282,
+        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Adventure",
+        "slug": "adventure",
+        "games_count": 107531,
+        "image_background": "https://media.rawg.io/media/games/ad2/ad2ffdf80ba993654f31da045bc02456.jpg"
+      }
+    ],
+    "stores": [
+      {
+        "id": 257732,
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 7733,
+          "image_background": "https://media.rawg.io/media/games/588/588c6bdff3d4baf66ec36b1c05b793bf.jpg"
+        }
+      },
+      {
+        "id": 374316,
+        "store": {
+          "id": 11,
+          "name": "Epic Games",
+          "slug": "epic-games",
+          "domain": "epicgames.com",
+          "games_count": 792,
+          "image_background": "https://media.rawg.io/media/games/16b/16b1b7b36e2042d1128d5a3e852b3b2f.jpg"
+        }
+      },
+      {
+        "id": 384218,
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 60625,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      },
+      {
+        "id": 48782,
+        "store": {
+          "id": 2,
+          "name": "Xbox Store",
+          "slug": "xbox-store",
+          "domain": "microsoft.com",
+          "games_count": 4701,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 13537,
+    "name": "Half-Life 2",
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 143282,
+        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Shooter",
+        "slug": "shooter",
+        "games_count": 49119,
+        "image_background": "https://media.rawg.io/media/games/c80/c80bcf321da44d69b18a06c04d942662.jpg"
+      }
+    ],
+    "stores": [
+      {
+        "id": 14891,
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 60625,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      },
+      {
+        "id": 41441,
+        "store": {
+          "id": 8,
+          "name": "Google Play",
+          "slug": "google-play",
+          "domain": "play.google.com",
+          "games_count": 16616,
+          "image_background": "https://media.rawg.io/media/games/21a/21ad672cedee9b4378abb6c2d2e626ee.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 4286,
+    "name": "BioShock",
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 143282,
+        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Shooter",
+        "slug": "shooter",
+        "games_count": 49119,
+        "image_background": "https://media.rawg.io/media/games/c80/c80bcf321da44d69b18a06c04d942662.jpg"
+      }
+    ],
+    "stores": [
+      {
+        "id": 4614,
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 7733,
+          "image_background": "https://media.rawg.io/media/games/588/588c6bdff3d4baf66ec36b1c05b793bf.jpg"
+        }
+      },
+      {
+        "id": 79531,
+        "store": {
+          "id": 4,
+          "name": "App Store",
+          "slug": "apple-appstore",
+          "domain": "apps.apple.com",
+          "games_count": 71649,
+          "image_background": "https://media.rawg.io/media/games/4fb/4fb548e4816c84d1d70f1a228fb167cc.jpg"
+        }
+      },
+      {
+        "id": 440407,
+        "store": {
+          "id": 2,
+          "name": "Xbox Store",
+          "slug": "xbox-store",
+          "domain": "microsoft.com",
+          "games_count": 4701,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        }
+      },
+      {
+        "id": 20580,
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 60625,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      },
+      {
+        "id": 33844,
+        "store": {
+          "id": 7,
+          "name": "Xbox 360 Store",
+          "slug": "xbox360",
+          "domain": "marketplace.xbox.com",
+          "games_count": 1917,
+          "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 1030,
+    "name": "Limbo",
+    "genres": [
+      {
+        "id": 3,
+        "name": "Adventure",
+        "slug": "adventure",
+        "games_count": 107531,
+        "image_background": "https://media.rawg.io/media/games/ad2/ad2ffdf80ba993654f31da045bc02456.jpg"
+      },
+      {
+        "id": 51,
+        "name": "Indie",
+        "slug": "indie",
+        "games_count": 42945,
+        "image_background": "https://media.rawg.io/media/games/48c/48cb04ca483be865e3a83119c94e6097.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Puzzle",
+        "slug": "puzzle",
+        "games_count": 80852,
+        "image_background": "https://media.rawg.io/media/screenshots/6ac/6ac143af704c95c774af432785ff9762.jpeg"
+      },
+      {
+        "id": 83,
+        "name": "Platformer",
+        "slug": "platformer",
+        "games_count": 81187,
+        "image_background": "https://media.rawg.io/media/games/e0f/e0f05a97ff926acf4c8f43e0849b6832.jpg"
+      }
+    ],
+    "stores": [
+      {
+        "id": 1054,
+        "store": {
+          "id": 4,
+          "name": "App Store",
+          "slug": "apple-appstore",
+          "domain": "apps.apple.com",
+          "games_count": 71649,
+          "image_background": "https://media.rawg.io/media/games/4fb/4fb548e4816c84d1d70f1a228fb167cc.jpg"
+        }
+      },
+      {
+        "id": 3679,
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 7733,
+          "image_background": "https://media.rawg.io/media/games/588/588c6bdff3d4baf66ec36b1c05b793bf.jpg"
+        }
+      },
+      {
+        "id": 7493,
+        "store": {
+          "id": 2,
+          "name": "Xbox Store",
+          "slug": "xbox-store",
+          "domain": "microsoft.com",
+          "games_count": 4701,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        }
+      },
+      {
+        "id": 10311,
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 60625,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      },
+      {
+        "id": 26852,
+        "store": {
+          "id": 5,
+          "name": "GOG",
+          "slug": "gog",
+          "domain": "gog.com",
+          "games_count": 3978,
+          "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+        }
+      },
+      {
+        "id": 33137,
+        "store": {
+          "id": 7,
+          "name": "Xbox 360 Store",
+          "slug": "xbox360",
+          "domain": "marketplace.xbox.com",
+          "games_count": 1917,
+          "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+        }
+      },
+      {
+        "id": 49142,
+        "store": {
+          "id": 6,
+          "name": "Nintendo Store",
+          "slug": "nintendo",
+          "domain": "nintendo.com",
+          "games_count": 8806,
+          "image_background": "https://media.rawg.io/media/games/e2d/e2d3f396b16dded0f841c17c9799a882.jpg"
+        }
+      },
+      {
+        "id": 40035,
+        "store": {
+          "id": 8,
+          "name": "Google Play",
+          "slug": "google-play",
+          "domain": "play.google.com",
+          "games_count": 16616,
+          "image_background": "https://media.rawg.io/media/games/21a/21ad672cedee9b4378abb6c2d2e626ee.jpg"
+        }
+      },
+      {
+        "id": 335541,
+        "store": {
+          "id": 11,
+          "name": "Epic Games",
+          "slug": "epic-games",
+          "domain": "epicgames.com",
+          "games_count": 792,
+          "image_background": "https://media.rawg.io/media/games/16b/16b1b7b36e2042d1128d5a3e852b3b2f.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 2454,
+    "name": "DOOM (2016)",
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 143282,
+        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Shooter",
+        "slug": "shooter",
+        "games_count": 49119,
+        "image_background": "https://media.rawg.io/media/games/c80/c80bcf321da44d69b18a06c04d942662.jpg"
+      }
+    ],
+    "stores": [
+      {
+        "id": 355582,
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 60625,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      },
+      {
+        "id": 2571,
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 7733,
+          "image_background": "https://media.rawg.io/media/games/588/588c6bdff3d4baf66ec36b1c05b793bf.jpg"
+        }
+      },
+      {
+        "id": 38659,
+        "store": {
+          "id": 6,
+          "name": "Nintendo Store",
+          "slug": "nintendo",
+          "domain": "nintendo.com",
+          "games_count": 8806,
+          "image_background": "https://media.rawg.io/media/games/e2d/e2d3f396b16dded0f841c17c9799a882.jpg"
+        }
+      },
+      {
+        "id": 8223,
+        "store": {
+          "id": 2,
+          "name": "Xbox Store",
+          "slug": "xbox-store",
+          "domain": "microsoft.com",
+          "games_count": 4701,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 3070,
+    "name": "Fallout 4",
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 143282,
+        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+      },
+      {
+        "id": 5,
+        "name": "RPG",
+        "slug": "role-playing-games-rpg",
+        "games_count": 43884,
+        "image_background": "https://media.rawg.io/media/games/6cd/6cd653e0aaef5ff8bbd295bf4bcb12eb.jpg"
+      }
+    ],
+    "stores": [
+      {
+        "id": 3252,
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 7733,
+          "image_background": "https://media.rawg.io/media/games/588/588c6bdff3d4baf66ec36b1c05b793bf.jpg"
+        }
+      },
+      {
+        "id": 9047,
+        "store": {
+          "id": 2,
+          "name": "Xbox Store",
+          "slug": "xbox-store",
+          "domain": "microsoft.com",
+          "games_count": 4701,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        }
+      },
+      {
+        "id": 13248,
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 60625,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Destiny 2",
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 143282,
+        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Shooter",
+        "slug": "shooter",
+        "games_count": 49119,
+        "image_background": "https://media.rawg.io/media/games/c80/c80bcf321da44d69b18a06c04d942662.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Adventure",
+        "slug": "adventure",
+        "games_count": 107531,
+        "image_background": "https://media.rawg.io/media/games/ad2/ad2ffdf80ba993654f31da045bc02456.jpg"
+      },
+      {
+        "id": 59,
+        "name": "Massively Multiplayer",
+        "slug": "massively-multiplayer",
+        "games_count": 2791,
+        "image_background": "https://media.rawg.io/media/games/a39/a392d867d88f20448ddcdce099ae07ee.jpg"
+      }
+    ],
+    "stores": [
+      {
+        "id": 32,
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 7733,
+          "image_background": "https://media.rawg.io/media/games/588/588c6bdff3d4baf66ec36b1c05b793bf.jpg"
+        }
+      },
+      {
+        "id": 808,
+        "store": {
+          "id": 2,
+          "name": "Xbox Store",
+          "slug": "xbox-store",
+          "domain": "microsoft.com",
+          "games_count": 4701,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        }
+      },
+      {
+        "id": 326831,
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 60625,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 11859,
+    "name": "Team Fortress 2",
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 143282,
+        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Shooter",
+        "slug": "shooter",
+        "games_count": 49119,
+        "image_background": "https://media.rawg.io/media/games/c80/c80bcf321da44d69b18a06c04d942662.jpg"
+      }
+    ],
+    "stores": [
+      {
+        "id": 13018,
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 60625,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 3939,
+    "name": "PAYDAY 2",
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 143282,
+        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Shooter",
+        "slug": "shooter",
+        "games_count": 49119,
+        "image_background": "https://media.rawg.io/media/games/c80/c80bcf321da44d69b18a06c04d942662.jpg"
+      }
+    ],
+    "stores": [
+      {
+        "id": 4258,
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 7733,
+          "image_background": "https://media.rawg.io/media/games/588/588c6bdff3d4baf66ec36b1c05b793bf.jpg"
+        }
+      },
+      {
+        "id": 10780,
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 60625,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      },
+      {
+        "id": 27939,
+        "store": {
+          "id": 6,
+          "name": "Nintendo Store",
+          "slug": "nintendo",
+          "domain": "nintendo.com",
+          "games_count": 8806,
+          "image_background": "https://media.rawg.io/media/games/e2d/e2d3f396b16dded0f841c17c9799a882.jpg"
+        }
+      },
+      {
+        "id": 34027,
+        "store": {
+          "id": 7,
+          "name": "Xbox 360 Store",
+          "slug": "xbox360",
+          "domain": "marketplace.xbox.com",
+          "games_count": 1917,
+          "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+        }
+      }
+    ]
+  }
+]
