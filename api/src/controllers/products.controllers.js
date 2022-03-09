@@ -5,14 +5,15 @@ const {
 
 const postProduct = async (req, res) => {
   try {
-    const { price, key, storeId, gameId, platformId, userId } = req.body;
+    const { price, key, storeId, gameId, platformId, userId, region } = req.body;
     const product = await createProduct({
       price,
       key,
-      storeId: store,
-      gameId: game,
-      plataformId: platform,
-      userId: user,
+      storeId: storeId,
+      gameId: gameId,
+      platformId: platformId,
+      userId: userId,
+      region: region
     });
     res.status(201).json({
       message: "Product created",

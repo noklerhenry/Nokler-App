@@ -7,7 +7,7 @@ const filterByGenre = async (req, res) => {
   if (!genrArray.includes(genr)) {
     genrArray.push(genr);
   }
-   console.log(genrArray);
+  //  console.log(genrArray);
   try {
     if (genrArray.length >= 1) {
       const genreFilter = await prisma.game.findMany({
@@ -15,6 +15,7 @@ const filterByGenre = async (req, res) => {
           genres: true,
           platforms: true,
           productKey: true,
+          region: true,
         },
       });
       const formatDBGames = genreFilter.map((data) => {
@@ -38,7 +39,7 @@ let filteredGames = []
         // console.log(ele)
         for (let j = 0; j < formatDBGames.length; j++) {
           if (formatDBGames[j].genres.includes(ele)) {
-            filteredGames.push(formatDBGames[j].name);
+            filteredGames.push(formatDBGames[j]);
           }
         }
       }

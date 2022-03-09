@@ -6,6 +6,11 @@ const getDetails = require('./getDetails.routes')
 const getAllGames = require('./getAllGames.routes.js')
 const userSearch = require('./userSearch.routes.js')
 const filterByGenre = require('./filterByGenre.routes.js')
+const platformFilter = require("./filterByPlatform.routes.js")
+const filterByRegion = require("./filterByRegion.routes.js")
+const createProduct = require('./products.routes.js')
+const filterAcum = require("./filtersAcum.routes.js")
+const filterByStore = require('./filterByStore.routes.js')
 
 //Import de routers:
 
@@ -28,6 +33,18 @@ router.use("/filterByGenre",filterByGenre)
 
 // Filter by platform
 router.use('/filterByPlatform', platformFilter)
+
+//Filter by region
+router.use('/filterByRegion', filterByRegion)
+
+//Post product
+router.use('/product', createProduct)
+
+//FilterAcum
+router.use('/filterAcum', filterAcum)
+
+//Filter by Store
+router.use("/filterByStore", filterByStore)
 
 
 

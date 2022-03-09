@@ -15,6 +15,7 @@ const filterByPlatform = async (req, res) => {
           genres: true,
           platforms: true,
           productKey: true,
+          region: true,
         },
       });
       const formatDBGames = platformFilter.map((data) => {
@@ -38,7 +39,7 @@ let filteredGames = []
         // console.log(ele)
         for (let j = 0; j < formatDBGames.length; j++) {
           if (formatDBGames[j].platform.includes(ele)) {
-            filteredGames.push(formatDBGames[j].name);
+            filteredGames.push(formatDBGames[j]);
           }
         }
 

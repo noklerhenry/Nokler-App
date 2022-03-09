@@ -53,6 +53,7 @@ model ProductsKey {
   cartId     Int?
   user       User     @relation(fields: [userId], references: [id])
   userId     Int
+  region     String
 }
 
 model Order {
@@ -91,6 +92,7 @@ model User {
   img         String
   userProduct ProductsKey[]
   order       Order[]
+  enable      Boolean       @default(true)
 }
 
 enum Status {
