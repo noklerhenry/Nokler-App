@@ -1,12 +1,10 @@
 const { Router } = require("express");
+const checkout = require('./checkout');
+const filters = require('./fitlers');
 
 const router = Router();
 
-router.use("/", async (req, res, next) => {
-  res.json({
-    message: "Hello World from Nokler!",
-  });
-  next();
-});
+router.use('/filters', filters);
+router.use('/checkout',checkout);
 
 module.exports = router;

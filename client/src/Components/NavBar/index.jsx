@@ -8,9 +8,11 @@ import { useAuth0 } from "@auth0/auth0-react";
 import { useColorMode, Button, Box, Image, Flex } from "@chakra-ui/react";
 
 const NavBar = () => {
-  const { loginWithRedirect, isAuthenticated, isLoading } = useAuth0();
+  const { user, loginWithPopup, isAuthenticated, isLoading } = useAuth0();
 
   const {colorMode, toggleColorMode} = useColorMode();
+
+  console.log(user);
 
 
   return (
@@ -28,7 +30,7 @@ const NavBar = () => {
               <Button size='sm' mt='20px' onClick={() => toggleColorMode()} > Theme</Button>
             </Box>
             <Box>
-              {!isAuthenticated && !isLoading ? <Button size='sm' mt='20px' ml='9px' onClick={loginWithRedirect}> Sign in</Button> : <Logout />}
+              {!isAuthenticated && !isLoading ? <Button size='sm' mt='20px' ml='9px' onClick={loginWithPopup}> Sign in</Button> : <Logout />}
             {/* <Button size='sm' mt='20px' onClick={loginWithRedirect}> Sign in</Button> */}
             </Box>
             <Box>

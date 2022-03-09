@@ -12,6 +12,7 @@ import {
     useDisclosure,
     useColorModeValue
   } from '@chakra-ui/react';
+  import { Link } from 'react-router-dom';
 
 const CartDrawer = () => {
    
@@ -44,7 +45,7 @@ const CartDrawer = () => {
                   <Button variant='outline' mr={3} onClick={onClose}>
                     Close
                   </Button>
-                  <Button colorScheme='blue'>Checkout</Button>
+                  <Button colorScheme='blue'><Link to='/checkout'>Checkout</Link></Button>
                 </DrawerFooter>
               </DrawerContent>
             </Drawer>
