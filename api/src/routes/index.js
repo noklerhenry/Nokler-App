@@ -11,6 +11,7 @@ const filterByRegion = require("./filterByRegion.routes.js")
 const createProduct = require('./products.routes.js')
 const filterAcum = require("./filtersAcum.routes.js")
 const filterByStore = require('./filterByStore.routes.js')
+const checkOut = require('./checkOut.routes.js')
 
 //Import de routers:
 
@@ -45,6 +46,10 @@ router.use('/filterAcum', filterAcum)
 
 //Filter by Store
 router.use("/filterByStore", filterByStore)
+
+//Checkout
+
+router.use("/checkOut", checkOut)
 
 
 
