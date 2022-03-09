@@ -28,7 +28,7 @@ export const CheckoutForm = ({ amount }) => {
     <Container>
     <form onSubmit={(e) => handleSubmit(e)}>
       <CardElement />
-      <Button background='green.400' color='white' >Buy</Button>
+      <Button background='green.400' color='white' type="submit" >Buy</Button>
     </form>
     </Container>
   );
